@@ -1,0 +1,70 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 2rem;
+    background: #292828;
+    color: #808080;
+    position: sticky;
+    top: 0;
+}
+
+#logo {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+#title {
+    color: white;
+}
+
+#sub {
+    font-size: medium;
+    font-weight: lighter;
+    color: #808080;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 660px;
+    border-radius: 5px;
+    background: #373737;
+    border: none;
+    text-indent: 25px;
+    background-image: url("../Images/search.svg");
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#searchInput:focus {
+    outline: none;
+}
+
+#searchButton {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    background: #292828;
+    color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px;
+}
+
+#icons {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#accountIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

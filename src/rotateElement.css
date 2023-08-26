@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+}
+
+div {
+    width: 120px;
+    border: 1px solid red;
+}
+
+h1 {
+    animation: h1 infinite 1s linear;
+    border: 1px solid black;
+    /* width: 10px; */
+}
+
+@keyframes h1 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
